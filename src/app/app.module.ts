@@ -3,13 +3,17 @@ import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
 import {ServerComponent} from './server/server.component';
-import { ServersComponent } from './servers/servers.component';
+import {ServersComponent} from './servers/servers.component';
+import {ErrorAlertComponent} from './alerts/error-alert/error-alert.component';
+import {WarningAlertComponent} from './alerts/warning-alert/warning-alert.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
     ServersComponent,
+    ErrorAlertComponent,
+    WarningAlertComponent,
   ],
   imports: [
     BrowserModule,
